@@ -1,0 +1,242 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+:root{
+    --clr-primary: #e24e2a;
+    --clr-grey: #ececec;
+    --clr-grey-dark: #3f3f3f;
+    --clr-grey-text: #5d5954;
+    --clr-grey-bg: #383838;
+
+    --clr-green: #1b9772;
+    --clr-green-text: #3aa483;
+    --clr-green-link: #8ec2aa;
+
+    --clr-white: #fff;
+
+}
+html{
+    background-color: #868686;
+}
+body{
+    font-family: Helvetica, sans-serif;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+
+/*
+HEADER
+*/
+
+.header{
+    position:sticky;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: white;
+}
+.header .header-text{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+.header .header-text .divider{
+    width: 2px;
+    font-size: 30px;
+    color: var(--clr-grey-text);
+}
+.header .header-text .sub-heading{
+    padding-top: 18px;
+    color: var(--clr-grey-text);
+}
+.header.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+
+}
+.header .navbar .nav-item{
+    cursor: pointer;
+    padding: 25px;
+    color: black;
+
+    background-color: var(--clr-grey);
+}
+
+#orange-field{
+    color: white;
+    background-color: var(--clr-primary);
+}
+
+/*1st main section*/
+
+.main .bg-img{
+    height: 50vh;
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: unset;
+}
+
+/*2nd main section*/
+
+.main .wirework-info{
+    background-color: var(--clr-primary);
+    height: 20vh;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 3rem;
+    padding-bottom: 3.5rem;
+}
+.main .wirework-info .wirework-info-paragraph{
+    color: var(--clr-grey);
+    text-align: center;
+}
+.main .wirework-info .wirework-info-paragraph > u{
+    color: white;
+}
+
+/*3rd main section*/
+.services-section{
+    height: 50vh;
+    background-color: var(--clr-grey-bg);
+}
+.services-section .services{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 132px;
+    padding-bottom: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.services-section .services .service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    
+}
+
+.services-section .services .service .icon-bg{
+    padding: 18px;
+    
+    font-size: 60px;
+    background-color: #e24e2a;
+    color: white;
+    
+}
+.services-section .services .service .icon-bg > i{
+    padding: 8px; 
+}
+.services-section .services .service > p{
+   text-align: center;
+   color: var(--clr-grey-text);
+    
+}
+.services-section .services .service > h3{
+    
+    color: white;
+     
+ }
+ .services-section .services .service > hr{
+    width: 80%;
+    
+    border: 1px solid var(--clr-grey-text);
+ }
+/*4th main section*/
+.main .apply{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+
+}
+.main .apply > h1{
+    font-size: xx-large;
+    color: var(--clr-grey-text);
+
+}
+.main .apply > p{
+    color: #868686;
+    letter-spacing: 1px;
+}
+.main .apply > button{
+    background-color: var(--clr-green);
+    color: white;
+    letter-spacing: 2px;
+    padding: 20px 60px 20px 60px;
+    margin-top: 2rem;
+    border: none;
+}
+/*5th main section*/
+.main .final-info{
+    height: 35vh;
+    background-color: var(--clr-grey-bg);
+}
+.main .final-info .sections{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 130px;
+    padding-bottom: 8px;
+    padding-left: 45px;
+    padding-right: 45px;
+
+}
+.main .final-info .sections .section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+
+}
+
+.main .final-info .sections .section > h2{
+    color: white;
+    text-align: center;
+
+}
+.main .final-info .sections .section > p{
+    color: var(--clr-grey-text);
+    text-align: center;
+
+}
+/*footer*/
+.footer{
+    height: 15vh;
+    background-color: var(--clr-green);
+}
+.footer .footer-text{
+    text-align: center;
+    color: var(--clr-green-text);
+    padding: 5%;
+}
+.footer .footer-text > span{
+    color: var(--clr-green-link);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
